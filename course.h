@@ -18,7 +18,7 @@ private:
 public:
 	course(string,string);
 	string getName() const { return course_name; }
-	friend std::ostream& operator<<(ostream &, const patient&);
+	friend std::ostream& operator<<(ostream &, const course&);
 	friend class student;
 	~course();
 
